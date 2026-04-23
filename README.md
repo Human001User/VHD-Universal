@@ -47,7 +47,7 @@ python bot.py
 
 ## Как получить access_token
 
-1. Войдите на [vitalshark.ru](https://vitalshark.ru)
+1. Войдите на [vitalshark.ru](https://vitalshark.ru) [holdik.ru](https://holdik.ru) [donater.shop](https://donater.shop)
 2. Откройте DevTools (`F12`) → вкладка **Application** → **Cookies**
 3. Скопируйте значение `access_token`
 
