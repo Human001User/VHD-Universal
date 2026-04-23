@@ -41,7 +41,7 @@ python bot.py
 или запусти `start.bat` (Windows)
 
 При первом запуске бот попросит ввести:
-- `access_token` от vitalshark.ru
+- `access_token` от vitalshark.ru holdik.ru donater.shop
 - Токен Telegram бота (получить у [@BotFather](https://t.me/BotFather))
 - Ваш Telegram ID (узнать у [@userinfobot](https://t.me/userinfobot))
 
