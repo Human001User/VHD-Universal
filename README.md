@@ -18,6 +18,8 @@ Telegram-бот для управления аккаунтами на торго
 - 🤖 Авто-ответчик на ключевые слова
 - 📋 Просмотр заказов
 - 🔔 Уведомления о новых сообщениях в Telegram
+- 🌐 Прокси-поддержка с управлением через бота
+- 🏪 Выбор площадки при первом запуске (VitalShark / Holdik / Donater)
 - 🌐 Поддержка русского и английского языков
 
 ## Установка
@@ -40,14 +42,15 @@ python bot.py
 ```
 или запусти `start.bat` (Windows)
 
-При первом запуске бот попросит ввести:
-- `access_token` от vitalshark.ru holdik.ru donater.shop
-- Токен Telegram бота (получить у [@BotFather](https://t.me/BotFather))
-- Ваш Telegram ID (узнать у [@userinfobot](https://t.me/userinfobot))
+При первом запуске бот попросит:
+1. Выбрать площадку (VitalShark.ru / Holdik.ru / Donater.shop)
+2. Ввести `access_token` от выбранной площадки
+3. Ввести токен Telegram бота (получить у [@BotFather](https://t.me/BotFather))
+4. Ввести ваш Telegram ID (узнать у [@userinfobot](https://t.me/userinfobot))
 
 ## Как получить access_token
 
-1. Войдите на [vitalshark.ru](https://vitalshark.ru) [holdik.ru](https://holdik.ru) [donater.shop](https://donater.shop)
+1. Войдите на свою площадку ([vitalshark.ru](https://vitalshark.ru) / [holdik.ru](https://holdik.ru) / [donater.shop](https://donater.shop))
 2. Откройте DevTools (`F12`) → вкладка **Application** → **Cookies**
 3. Скопируйте значение `access_token`
 
